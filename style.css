@@ -5,3 +5,16 @@ p{
     color: white;
     font-size: 30px;
 }
+thead{
+    background-color: black;
+    color: white;
+}
+tr{
+    background-color: white;
+}
+th{
+    color: black;
+}
+td{
+    color: black;
+}
