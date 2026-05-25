@@ -1,43 +1,49 @@
-body{
-    margin: 0;
-    min-height: 100vh;
+.child0{
+    margin-bottom: 5px;
+    height:1px;
+    width: 1px;
+
+}
+.parent1{
+    margin-top: -5px;
     background-color: black;
-    color: white;
-    overflow-x: hidden;
+    width:98%;
+    height:45vw;
+    border: 10px solid red;
 }
-
-#bg-video{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: 0;
-    pointer-events: none;
+.child1{
+    margin-top:10px;
+    margin-left:10px;
+    background-color:white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
 }
-
-.page-content{
-    position: relative;
-    z-index: 1;
-    padding: 40px;
-    background: rgba(0, 0, 0, 0.35);
+.child2{
+    margin-left:10px;
+    margin-top:10px;
+    background-color:blue;
+    width: 70%;
+    height: 40%;
+    display: inline-block
 }
-
-p{
-    color: white;
-    font-size: 30px;
+.parent2{
+    margin-top:auto;
+    background-color:aliceblue;
+    height:50%;
+    width:auto;
+    margin-left:5px;
+    margin-right:5px;
 }
-thead{
-    background-color: black;
-    color: white;
+.child3{
+    background-color:blue;
+    width: 100px;
+    height: 100px
 }
-tr{
-    background-color: white;
-}
-th{
-    color: black;
-}
-td{
-    color: black;
+.child4{
+    margin-top:10px;
+    background-color:red;
+    width: 100px;
+    height: 100px;
 }
